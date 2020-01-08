@@ -1,0 +1,24 @@
+.example {
+    color: #fff;
+}
+
+.example-item {
+    display: block;
+    width: 33.33%;
+    height: 150px;
+}
+
+.example-item_frist {
+    background-color: #FAA116;
+}
+
+.example-item_second {
+    background-color: #57c7c3;
+    margin-left: 66.7%;
+}
+
+.example-item_third {
+    background-color: #389703;
+    margin-left: auto;
+    margin-right: auto;
+}
