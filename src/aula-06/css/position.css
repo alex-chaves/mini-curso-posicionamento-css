@@ -1,0 +1,35 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.elementExample_first {
+    background-color: #6c5ce7;
+    position: absolute;
+    right: 0;
+}
+.elementExample_second {
+    background-color: #00B894;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); /*o 50% é em relaçao ao elemento noss eixo x e y */
+    top: 50%;
+}
+.elementExample_last{
+    background-color: #D63031;
+    position: absolute; /*Para respeita o pai tem que ser diferente de static*/
+}
+.elementExample_internal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);/*centraliza em relação ao pai*/
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #00cec9;
+}
